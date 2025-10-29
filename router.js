@@ -17,7 +17,7 @@ disable (trojan) // trojan je virus, ale musime psat anglicky trojan!
 
 console.log (hackersky_utok) // definice pro zablokování hackerských útoků - používáme block-port
 block-port [505] // 505 je DDoS
-block-port [USB-Flash-Disk] ;{botnet;spyware;ransomware;exploit;rootkit;adware;trojan;worms} // zablokování baiting - vypsat všechny druhy malware, worms jsou oba typy červů, worms = červ
+block-port [USB-Flash-Disk] ;{botnet;spyware;ransomware;exploit;rootkit;adware;trojan;worms} // zablokování baiting - vypsat všechny druhy malware, worms jsou oba typy červů, worms = červi
 block-port [PhishingSMS-Element] [PhishingEMAIL-Element] // Zablokování Phishing útoků - SMS a emaily, je nutné přidat parametr -Element
 block-port [password] [7K@iR49-d%rT=E+F1Mq8u@vb*=] [password] [6+VkP*S?rN!4C8%+5] ;{passwords-encrypted} // zablokování prolomení hesel pro uživatele a pro admina - šifrování přes -encrypted
 
@@ -44,6 +44,7 @@ decrypted [1,0] // zašifruje provoz a bude všem zobrazovat 1 a 0
 
 
 end
+
 
 
 
