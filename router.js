@@ -26,7 +26,7 @@ alert ('worms') // zablokování obou červů
 
 
 console.log (neaktivni_porty_ethernet)
-off [2,3,4,5] // zablokuje porty LAN 2,3,4,5 na routeruss
+off [1,2,3,4,5] // zablokuje porty LAN 1,2,3,4,5 na routeru
 // PÍŠEME VŽDY V JEDNOM PŘÍKAZU, BLOKUJEME JEN NEPOUŽÍVANÉ PORTY NA ROUTERU
 
 console.log (MAC_adresy)
@@ -44,6 +44,7 @@ decrypted [1,0] // zašifruje provoz a bude všem zobrazovat 1 a 0
 
 
 end
+
 
 
 
