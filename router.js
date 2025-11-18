@@ -32,8 +32,8 @@ off [1,2,3,4,5] // zablokuje porty LAN 1,2,3,4,5 na routeru
 console.log (MAC_adresy)
 enabled [14-20-20-04-cb-37,58-20-71-37-ca-05,pt-26-89-fh-gd-00,14-01-52-b0-51-c9,cc-e6-86-6f-9d-d6,60-D8-19-27-2D-9E] // enabled - povolí zadané MAC adresy 
 
-//Adam   (14-20-20-04-cb-37 : Adamův mobil Galaxy A14_jeho hlavní,  58-20-71-37-ca-05 : Adamův mobil Redmi A5, pt-26-89-fh-gd-00 : Adamův notebook lenovo-(červené)-
-//Adam   DESKTOP-PTL6GS8, 14-01-52-b0-51-c9 : Adamův starý mobil Galaxy A20e, 
+//Adam   (14-20-20-04-cb-37 : mobil Galaxy A14_jeho hlavní,  58-20-71-37-ca-05 : mobil Redmi A5, pt-26-89-fh-gd-00 :  notebook lenovo-(červené)-
+//Adam   DESKTOP-PTL6GS8, 14-01-52-b0-51-c9 : starý mobil Galaxy A20e,  00-24-2b-04-7d-32 : notebook ACER 1 (prý ten malý),  
 //Já     cc-e6-86-6f-9d-d6 : Můj mobil A05s,    60-D8-19-27-2D-9E : Můj Acer1 (červený)
 
 disable [Disabled-All-Instanceof] // disable - zakáže všechny neuložené MAC adresy
@@ -46,6 +46,7 @@ decrypted [1,0] // zašifruje provoz a bude všem zobrazovat 1 a 0
 
 
 end
+
 
 
 
