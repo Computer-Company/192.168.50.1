@@ -1,16 +1,8 @@
-def (vystupy_navic)
-console.log (vystupy_navic)
+vystupy_navic = [
+    {"id": 1, "name": "CC Wi-Fi_5G", "password": "6+VkP*S?rN!4C8%+5"},
+    {"id": 2, "name": "Nevim", "password": "nevimjakyjeheslo"},
+    {"id": 3, "name": "Naše", "password": "našewifi"},
+    {"id": 4, "name": "Moje", "password": "mojewifi"}
+]
 
-port: (id=1 'CC Wi-Fi_5G' 6+VkP*S?rN!4C8%+5)
-port: (id:9=2 'Nevim' nevimjakyjeheslo)
-port: (id:10=3 'Naše' našewifi)
-port: (id:11=4 'Moje' mojewifi)
-
-end
-
-
-
-
-
-
-
+print(vystupy_navic)
