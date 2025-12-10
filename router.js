@@ -31,7 +31,7 @@ off [1,2,3,4,5] // zablokuje porty LAN 1,2,3,4,5 na routeru
 
 console.log (MAC_adresy)
 
-enabled [cc-e6-86-6f-9d-d6,60-D8-19-27-2D-9E, 6c-55-63-9c-f5-0c, F0-03-8C-84-68-E5] // enabled - povolí zadané MAC adresy
+enabled [cc-e6-86-6f-9d-d6,60-D8-19-27-2D-9E,6c-55-63-9c-f5-0c,F0-03-8C-84-68-E5] // enabled - povolí zadané MAC adresy
 
 //Já     CC-E6-86-6F-9D-D6 : Můj mobil A05s,    60-D8-19-27-2D-9E : Můj Acer1 (červený),     F0-03-8C-84-68-E5 : Můj Asus (bílý)
 //tatínek  6c-55-63-9c-f5-0c : jeho mobil 
@@ -46,6 +46,7 @@ decrypted [1,0] // zašifruje provoz a bude všem zobrazovat 1 a 0
 
 
 end
+
 
 
 
